@@ -1,6 +1,4 @@
 *.jar
-classes/*
-lib/*
 public/index.html
 public/blog/*.xml
 public/sitemap.*
