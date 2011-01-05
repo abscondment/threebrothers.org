@@ -41,11 +41,13 @@ with no conflicts if you resolved everything in `master` &ndash;&gt;
 `dev_rails2` merges already.
 
 So I'd do this:
+
  * git checkout master
  * git svn rebase
  * git merge dev_rails2 *(succeeded)*
  
 But then in order for `git svn dcommit` to work, I'd need to do this: 
+
  * git svn rebase *(failed spectacularly)*
  * git svn dcommit *(doesn't work without the prior succeeding)*
 
@@ -97,7 +99,7 @@ quickly:
 
 Who knows what `set-tree` would have done here. Two of my changes had made it
 into Subversion, but the process halted on the commit in which I had copied
-the new mysql_replication_adapter plugin into vendor/plugins. After Googling
+the new mysql\_replication\_adapter plugin into vendor/plugins. After Googling
 around, I discovered this [great post about submodules](http://de-co-de.blogspot.com/2009/02/git-svn-and-submodules.html)
 causing this of failure.
 
