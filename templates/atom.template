@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  <subtitle></subtitle>
+  <link href="http://threebrothers.org/brendan/blog/atom.xml" rel="self" />
+  <link href="http://threebrothers.org/brendan/" />
+  <id>tag:threebrothers.org,2010-01-07:/brendan/blog</id>
+  <updated></updated>
+  <author>
+    <name>Brendan Ribera</name>
+    <email>brendan.ribera+blogatom@gmail.com</email>
+  </author>
+  <entry>
+    <title></title>
+    <link></link>
+    <id></id>
+    <updated></updated>
+    <summary></summary>
+    <content></content>
+  </entry>
+</feed>
