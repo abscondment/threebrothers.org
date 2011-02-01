@@ -56,6 +56,8 @@ That's a fine start, but you'll need to customize it to compile the generated R.
 
 ### Return types in if statements
 
+**Update** &ndash; this has been fixed in commit [7fa9c6294695a391dccd](https://github.com/mirah/mirah/commit/7fa9c6294695a391dccdd3364f01c5c2213959bf)
+
 We're creating statically typed code. Mirah has some cool type inferencing going on, but your variables are typed nevertheless. Even things like if statements have return values, and you need to make sure they match up. You'll probably just start littering 'nil' around at the end of each branch:
 
     if owed > 100
