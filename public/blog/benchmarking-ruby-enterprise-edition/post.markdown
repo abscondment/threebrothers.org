@@ -9,9 +9,9 @@ I benchmarked four <abbr title="Ruby Enterprise Edition">REE</abbr> configs, and
 
 <fieldset>
   <legend>Five Pairs of Ruby Benchmarks</legend>
-  <table width="100%">
+  <table style="width:100%;">
     <tr>
-      <th width="40%">Configuration</th>
+      <th style="width:40%;">Configuration</th>
       <th colspan="2">Cache hot</th>
       <th colspan="2">Cache cold</th>
     </tr>
@@ -30,14 +30,14 @@ I benchmarked four <abbr title="Ruby Enterprise Edition">REE</abbr> configs, and
       <td>-24.69%</td>
     </tr>
     <tr>
-      <td>REE (tuned GC<sup>\[3\]</sup>)</td>
+      <td>REE (tuned GC<sup>[3]</sup>)</td>
       <td>6.972</td>
       <td>-33.76%</td>
       <td>22.948875</td>
       <td>-32.05%</td>
     </tr>
     <tr>
-      <td>REE (copy-on-write<sup>\[4\]</sup>)</td>
+      <td>REE (copy-on-write<sup>[4]</sup>)</td>
       <td>9.0375</td>
       <td>-14.14%</td>
       <td>26.539625</td>
