@@ -82,7 +82,7 @@ The block syntax is cool, but scoping of self and instance variables is incomple
       this.launch(int(id))
     end
 
-It's super easy to add anonymous listeners with this syntax. But you need to make sure to create *local variables* to point to the values you'd like to acces inside the block. Inside "self", for example, refers to that anonymous class (you did read about [the cool blocks implementation](../closures-in-java-ruby-and-duby/), right? Likewise, instance variables don't exist inside the block. You need to pull them into the scope surrounding thep block to access them inside the block.
+It's super easy to add anonymous listeners with this syntax. But you need to make sure to create *local variables* to point to the values you'd like to acces inside the block. Inside "self", for example, refers to that anonymous class (you did read about [the cool blocks implementation](../closures-in-java-ruby-and-duby/), right? Likewise, instance variables don't exist inside the block. You need to pull them into the scope surrounding the block to access them inside the block.
 
 ## Bleeding Edge
 
