@@ -1,1 +1,0 @@
-I was waiting for my grades so anxiously that I forgot to post anything when I finally found out the results: I got a 3.5 in English as well, leaving my cumulative for last quarter at 3.63 (although, there is a quiz from that English class that was turned in without a name, and I think it might be mine... I'll just have to see what I got on the final to determine that).  Yay.

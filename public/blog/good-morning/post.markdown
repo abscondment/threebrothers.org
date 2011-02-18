@@ -1,3 +1,0 @@
-Most of you probably aren't awake right now.  Normally, I wouldn't be, either.  Thing is, I have an English paper due today that I'm still working on.  And, Jessica is leaving today; she'll be in Texas until the 4<sup>th</sup>.  I'm trying to get as much time in with her as possible before she leaves, which means waking up early to finish the paper and then going over to her apartment.  So, I'm off to get into the shower and then type 3 pages, single spaced.
-
-I'm going to miss her.

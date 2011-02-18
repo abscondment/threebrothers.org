@@ -1,1 +1,0 @@
-Looks like I'm going to have to redo how some of the CSS is laid out--Mozilla browsers under version 1.5 don't display the horizontal rules correctly (they place it over the menu boxes, which is no good--interrupts text and stuff like that).  Got my paper done--we'll see just how I did soon enough.  Got stupid work tonight... *sigh*.  Oh well.

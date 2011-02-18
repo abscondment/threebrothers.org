@@ -1,1 +1,0 @@
-My history class had a great guest lecture today from <a href="http://depts.washington.edu/clio/faculty/faculty_cv/mckenzie.html">Tracy McKenzie</a>, a <a href="http://www.washington.edu/">UW</a> History Professor.  It was really, really good.  I think I'm going to write a little something about what he lectured on--it was really good and really thougth provoking.

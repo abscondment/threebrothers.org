@@ -1,9 +1,0 @@
-I'm feeling pretty stupid right now.  I've been working on redoing <a href="http://www.greenlakepc.org">my church's website</a>, and I just uploaded <a href="http://students.washington.edu/bribera/glpc/">the beta version</a> that relies wholly on CSS to create a frame-like apperance.  Unfortunately, I'm stupid.  Really stupid--because instead of pointing it to the <tt>/glpc</tt> directory, I put it in <tt>/</tt>.  Freaking piece of crappy crap crap crap.  So, if you were wondering why the neat-o formatting suddenly disappeared, it's because I always name my stylesheets <tt>style.css</tt> and I overwrote the one for this site.  So now I have to dig through my archives and find it... I think it's on my Linux boot, too; that means I'll have to restart (!) to fix this.  Ugh.
-
-At least I had named my <acronym title="recursive acronym for &quot;PHP: Hypertext Preprocessor&quot;">PHP</acronym> includes directory something other than the norm... those didn't get lost too, so it's just the structure of the site, not the content that is taking a hit.
-
-Other news, I got a 3.9 on my English midterm.  Yay me!  I'm pretty happy about that--I wrote it starting at about 9pm the day before it was due, took a nap from 12-4am, and wrote the rest before class (which started at 8:30).  I seem to do my best work under extreme pressure... *shrug*.  Last year I got a 3.9-3.8 on two English papers that I wrote last minute, as well.  I think it makes me focus my topic more.
-
-Also, I'm looking pretty good for Philosophy: if I make comparable grades on the last two papers (comparable to 56/60) and maintain a comparable (92%) percentage on my quizes, and then transfer that quiz percentage over to the final (which is made up of all the multiple choice quizes--an easy thing) I should be in line for a 3.5~3.7.  We'll see.
-
-Now I just need to study my Psychology, instead of playing with this stupid computer.

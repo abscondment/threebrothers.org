@@ -1,7 +1,0 @@
-Once&mdash;long ago, mind you&mdash;I led a brass quintet to Washington State's State Solo and Ensemble.  We played Pachelbel's Canon, as adapted by the Canadian Brass.  Now, we didn't get very far in the competition because our Euphonium player nearly missed the show&mdash;but that's a whole other story.  Frankly, I got over that mishap pretty quickly&mdash;it chafed me more when our band director made us all meet and talk about our <em>feelings</em>, to make sure we weren't going to kill the guy.  None of us were, and I digress.
-
-Years later, that tune still has a place in my heart, or at least somewhere thereabouts.  Maybe it's in my gall bladder.  In any case, I haven't forgotten it.  I tend to be a little picky about the music I listen to, so when <a href="http://threebrothers.org/jordan/">Jordan</a> sent me a link to the following video, I had to laugh.
-
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/JdxkVQy7QLM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/JdxkVQy7QLM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
-
-Sheer and utter genius.  Although, I don't buy his "original one-hit wonder" argument; it seems more like Pachelbel created the the prototypical song, from which all other "poppy" tunes are derived.

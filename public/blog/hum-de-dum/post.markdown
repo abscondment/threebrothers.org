@@ -1,4 +1,0 @@
-<p>Let's see... what's going on?</p>
-<p>I'm officially moved home now.  It was quite an ordeal, but we made it (I think...).  Right now, I'm installing Debian GNU/Linux on that computer I purchased off of eBay a while back.</p>
-<p>I'm also sitting here waiting for grades and the like to come in--I'm only waiting on the COMPLIT grade now, as I've received my informatics grade (3.8).  I was a little surprised at that grade; I honestly expected a 3.5-3.3, but hey--I'll take a 3.8 any day.</p>
-<p>So that's that.  I acquired some new cookery from our move out, but other than that nothing truly exciting has happened.</p>

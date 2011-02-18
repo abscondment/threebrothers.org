@@ -1,5 +1,0 @@
-I just finished my <a href="http://courses.washington.edu/psy222/">biopsychology</a> final.  Midterm.  Final that's weighted like a midterm.  I think I did pretty well--I haven't figured out any that I definately got wrong; I know of at least one that I was unsure about, and I answered it correctly.  If I get a 36/40, I'll have a 3.7 (at least).  35/40 equals a 3.6, and 34/40 would be a 3.5.  I got 36 and 35 on the other two tests that are counting towards my grade, so we'll see.  Now I just have to take my philosophy final (yay!) and write an english paper (boo!).
-
-If you're into philosophy, go <a href="http://students.washington.edu/bribera/phil/">take the philosophy quiz</a> that I compiled from the multiple choice study questions given us on our <a href="http://faculty.washington.edu/annbaker/100/100home.html">course website</a>.
-
-I need a CS-sta (pronounced <i>siesta</i>; a break involving counter-strike).

@@ -1,3 +1,0 @@
-<p>Jessica is taking a computer science class at North Seattle during the summer.  She's learning how to do website stuff--I'm so proud of her!  Now she'll be able to act interested when I talk about computer things.</p>
-<p>I realize that I forgot to post my Comp. Lit. grade; yes, it did finally come in.  I got a 4.0, making my spring quarter grades span every possible grade from 3.7 to 4.0.  That made me rather happy.</p>
-<p>Well, I'm off to the happy trail of writing...</p>

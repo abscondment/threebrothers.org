@@ -1,3 +1,0 @@
-<p>Remember that book &quot;<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0385241046/qid=1092781380/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/002-7507250-9185624?v=glance&amp;s=books&amp;n=507846">Bored, Nothing to Do</a>&quot;?  I do.  That was a great book.  That's about how I feel right now; I'm sitting in <a href="http://zokacoffee.com/">U-Zoka</a> trying to figure out what to do next.</p>
-<p>I biked down to UW and met Gary Scott for lunch...</p>
-<p>Scratch that!  Megan just emailed me back, and we're moving our meeting up to today.  So, I'm going to talk database design.  Righto.</p>

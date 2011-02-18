@@ -1,9 +1,0 @@
-Currently listening to "Egmont", by Beethoven.
-
-Just got my grade for Philosophy Essay #2: 54/60.  Eh.  So-so.  A little under target for the 4.0, but not a total botch.  Breakdown: 370 points = 4.0; 86 (in-class quizzes and practice essay) + 56 (essay 1) + 54 (essay 2) + 3 (extra credit) = 199.  Possible points left to earn: 9 (6; calendar is unlcear; extra credit) + 60 (essay 3) + 120 (final exam).  If I earn the total remaining points (unlikely) I will have 388 (385, depending on extra credit) points.  If I earn 6 extra credit points (which will be easy), 55 on essay 3 (current average for my essays) that will give me 260 points, forcing me to score 110 on the final (which is 60 questions, worth 2 points each).  Earning 9 points would allow me to miss 6 questions on the test; I think I can do that.  We'll see.
-
-Also, I got 35/40 on my biopsychology midterm.  Also so-so.  The highest grade I can get in that class is a 3.9 (highly unlikely).  I'd need to ace the final (which counts the same as a midterm).  If I did, my average test score would be 92.5%, which translates to a 3.8.  I'm also counting on an additional 0.1 to the GPA from extra credit work.  If I score the average of my midterms that are accurate gauges (meaning, not counting the one that happened right after I was sick and had to miss lots of class), I'll wind up with an average of 88.3%, which is a 3.5.  After the 0.1, it's a 3.6.  If I do the average of all my midterms, I'll get (after E.C.) a 3.4.  If I bomb and do worse than my worst (25/40) midterm, I'll get a 3.0 (no E.C.).
-
-In the words of <a href="http://www.homestarrunner.com">Homestar Runner</a>, "Borwing!"
-
-Now I'm listening to Beethoven's 6<sup>th</sup> Symphony.

@@ -1,7 +1,0 @@
-Finally.  My biopsych grade was posted at 2:14pm today, beating the Philosophy department's grade posting time by a soon (hopefully) to be determined amount of time.
-
-I am such a dork.
-
-Anyway, I got a 3.5 in the class--that's what I expected to get, and I'm happy with the grade.  I'm in the middle of typing my final exam for English; about 5 pages single spaced, questions on <a href="http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?isbn=0060931949">House Made of Dawn</a>, <a href="http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?isbn=0140077022">White Noise</a>, and <a href="http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?isbn=0807083054">Kindred</a>.  House Made of Dawn was very good, White Noise was fairly good, and Kindred was fairly boring.  All of the books are very post-modern (which makes sense, considering that they are all for the second half of a modern/post-modern literature class).  House Made of Dawn is of the tragic variety, White Noise the humorous, and Kindred the... hmmm... dramatic.  Needless to say, the world view that each book presents isn't very glorifying to Christ (a failure shared by both modernism and post-modernism).  Some nearby TV is playing a South Park  episode right now; they're making fun of Canada again.  Apparently, there's only one road in Canada...
-
-I'm glad that my new living situation will accept reading the Bible and talking about God and life as more important than watching poorly drawn cartoons fart and swear.

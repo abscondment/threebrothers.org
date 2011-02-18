@@ -1,3 +1,0 @@
-<p>I'm back from Texas.  The visit went really well; I really like the Meadors.  Also, I didn't get sick--that was quite a plus.</p>
-<p>It's nice to be home.  My flights went well and without mishap.  Jessica picked me up from the airport with a letter in her hand; it let me know that I have been accepted into the <a href="http://www.ischool.washington.edu/programs/informatics/">Bachelor of Science in Informatics</a> degree program.  Now I have to finish my Computer Science application and see if I get into that degree.</p>
-<p>Life is blessed.</p>
