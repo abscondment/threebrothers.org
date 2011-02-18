@@ -67,7 +67,7 @@ averaging a 120ms response time is "through the roof"?).
 Neat. But fixing the keys didn't bring performance up to par with the other
 server. We noticed two things:
 
- * Those pesky "Rescheduling interrupts" were still there &ndash at three
+ * Those pesky "Rescheduling interrupts" were still there &ndash; at three
    orders of maginitude more per second from the slow server to the other.
  * <abbr title='Advanced Host Controller Interface'>AHCI</abbr> was disabled
    on the slow server.
