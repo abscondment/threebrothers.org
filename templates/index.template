@@ -11,12 +11,18 @@
       <div class="banner"><h1 class="title"></h1></div>
       <div class="content">
         <div>
-          <h1>Recent posts <a href="http://feeds.threebrothers.org/threebrothers/brendan"><img alt="Feed" src="/brendan/images/feed.png" /></a></h1>
+          <ul class="posts"><li class="post"></li></ul>
+
+          <h3>
+            Get the feed
+            <a href="http://feeds.threebrothers.org/threebrothers/brendan"><img alt="Feed" src="/brendan/images/feed.png" /></a>
+          </h3>
           
-          <div class="years">
-            <div class="year"><b></b></div>
-            <ul class="posts"><li class="post"><a></a></li></ul>
-          </div>
+          <div style="clear:both;margin:2em 0 1em 0;">
+            <div style="float:left;" id="previousPage"></div>
+            <div style="float:right;" id="nextPage"></div>
+            <br style="clear:both;"/>
+          </div>          
         </div>
       </div>
       <div class="footer"></div>

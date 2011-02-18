@@ -82,7 +82,7 @@ ul.menu li a:hover {
 .content {
   clear:both;
   margin:2em 0 0 0;
-  padding-top:0.5em;
+  padding-top:1.75em;
   line-height:1.6em;
   border-top:1px solid #999;
 }
@@ -93,8 +93,11 @@ ul.menu li a:hover {
 .content .rightImage {float:right;text-align:center;margin: 0 0 1em 1em;}
 .content .borderedImage { border:1px solid #666; }
 
-ul.posts { margin-top:0; }
-ul.posts li.post { margin-bottom:5px; }
+ul.posts { margin:0; padding:0; }
+ul.posts li.post { padding:0; margin:0 0 1.5em 0; list-style-type:none; }
+ul.posts li.post h1 { margin:0 0 0.25em 0; }
+ul.posts li.post h1 a { text-decoration:none; }
+ul.posts li.post .date { font-size:0.8em; color:#aaa; }
 
 div.years {margin-top:10px;}
 
