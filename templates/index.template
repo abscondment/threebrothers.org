@@ -12,15 +12,16 @@
       <div class="content">
         <div>
           <ul class="posts"><li class="post"></li></ul>
-
-          <h3>
-            Get the feed
-            <a href="http://feeds.threebrothers.org/threebrothers/brendan"><img alt="Feed" src="/brendan/images/feed.png" /></a>
-          </h3>
-          
-          <div style="clear:both;margin:2em 0 1em 0;">
-            <div style="float:left;" id="previousPage"></div>
-            <div style="float:right;" id="nextPage"></div>
+          <hr/>
+          <div class="nextLinks">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="middle">
+              <h3>
+                <b>|</b>
+                <a href="http://feeds.threebrothers.org/threebrothers/brendan">Get the feed <img alt="Feed" src="/brendan/images/feed.png" /></a>
+              </h3>
+            </div>
             <br style="clear:both;"/>
           </div>          
         </div>
