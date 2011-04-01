@@ -9,44 +9,57 @@
   </head>
   <body>
     <div class="envelope">
-    <div class="lbar">
-      <ul class="menu">
-        <li><a href="../">Blog</a></li>
-        <li><a href="../about/">About</a></li>
-        <li><a href="./" class="selected">Software</a></li>
-      </ul>
-    </div>
-    <div class="banner">
-      <h1 class="title">Quod erat faciendum</h1>
-      <h2>A technical blog by Brendan Ribera</h2>
-      <p>You should <a rel="nofollow" href="http://twitter.com/abscondment">follow me</a> on Twitter, <a rel="nofollow" href="http://feeds.threebrothers.org/threebrothers/brendan">subscribe to the feed</a>, and <a rel="nofollow" href="https://github.com/abscondment">fork&nbsp;me</a>&nbsp;on&nbsp;Github.</p>
-    </div>
-    <div class="content wide">
-      <h1>Software</h1>
-      <p>Here are some software projects that I have published. For an up-to-date list, please <a href="http://github.com/abscondment" title="fork abscondment on GitHub">fork me (abscondment)</a> on GitHub.</p>
-      <dl>
-      <dt><a href="http://github.com/abscondment/clj-kdtree" title="clj-kdtree: Clojure implementation of kD-trees, a space-partitioning binary tree useful for nearest-neighbor queries.">clj-kdtree (Clojure library)</a></dt>
-      <dd>
-        <p>clj-kdtree is a Clojure implementation of the <a href="http://en.wikipedia.org/wiki/Kd-tree" rel="nofollow">kD-tree data structure</a>. This type of binary tree partitions a set of points across each dimension, allowing for efficient nearest-neighbor search. It has been released as <a href="http://clojars.org/clj-kdtree">clj-kdtree on Clojars</a>.</p>
-      </dd>
-      <dt><a href="http://github.com/abscondment/statistics2" title="Statistics2: Ruby gem providing probabilistic distributions: normal distribution, chi-square distribution, t-distribution, F-distribution.">Statistics2 (Ruby gem)</a></dt>
-      <dd>
-        <p>Statistics2 is a module that provides <a href="http://en.wikipedia.org/wiki/Normal_distribution" rel="nofollow">normal</a>, <a href="http://en.wikipedia.org/wiki/Chi-square_distribution" rel="nofollow">Chi-square</a>, <a href="http://en.wikipedia.org/wiki/Student%27s_t-distribution" rel="nofollow">t-</a> and <a href="http://en.wikipedia.org/wiki/F-distribution" rel="nofollow">F-</a> <a href="http://en.wikipedia.org/wiki/Probability_distribution" rel="nofollow">probability distributions</a> for Ruby. It is a fork/continuation of <a href="http://raa.ruby-lang.org/project/statistics2/" rel="nofollow">Shin-ichiro Hara's</a> <a href="http://blade.nagaokaut.ac.jp/~sinara/ruby/math/statistics2/index.html" rel="nofollow">original code</a>; it has been updated for compatibility with Ruby 1.9 and has been released as the <a href="http://gemcutter.org/gems/statistics2">statistics2 ruby gem</a>.</p>
-      </dd>
-      <dt><a href="http://github.com/abscondment/rubyvor" title="RubyVor: Voronoi Diagrams and Delaunay Triangulation in Ruby">RubyVor (Ruby gem)</a></dt>
-      <dd>
-        <p><a href="http://gemcutter.org/gems/rubyvor">RubyVor is a ruby gem</a> providing efficient computation of <a href="http://en.wikipedia.org/wiki/Voronoi_diagram" rel="nofollow">Voronoi diagrams</a> and <a href="http://en.wikipedia.org/wiki/Delaunay_triangulation" rel="nofollow">Delaunay triangulations</a> in 2-dimensional space. It can be used for geospatial clustering of points, among other things.</p>
-        <p>It is implemented as a C extension using <a href="http://ect.bell-labs.com/who/sjf/" rel="nofollow">Steven Fortune's</a> sweepline algorithm and the original code that he published, along with some memory management improvements by <a href="http://www.derekbradley.ca" rel="nofollow">Derek Bradley</a>. It is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" rel="nofollow"><abbr title="Massachusetts Institute of Technology">MIT</abbr> License</a>.</p>
-      </dd>
-      <dt><a href="http://github.com/abscondment/protofarbtastic" title="Farbtastic for Prototype">protofarbtastic (JavaScript library)</a></dt>
-      <dd>
-        <p>protofarbtastic is a port of <a href="http://acko.net/dev/farbtastic" rel="nofollow">Steven Wittens' farbtastic color picker</a>. The original farbtastic is built as a jQuery plugin; protofarbtastic has been rewritten to sit on top of the Prototype framework instead.</p>
-      </dd>
-    </dl>
-    </div>
-    <div class="footer">
-Copyright &copy; Brendan Ribera <span class='currentYear'>2010</span>. This work is licensed as <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" rel="license nofollow"><img alt="Creative Commons Attribution-Share Alike 3.0 United States License" src="/brendan/images/cc_by-sa_80x15.png" style="border-width:0;vertical-align:top;" /></a>
-    </div>
+      <div class="lbar">
+        <ul class="menu">
+          <li><a href="../">Blog</a></li>
+          <li><a href="../about/">About</a></li>
+          <li><a href="./" class="selected">Software</a></li>
+        </ul>
+      </div>
+      <div class="banner">
+        <h1 class="title">Quod erat faciendum</h1>
+        <h2>A technical blog by Brendan Ribera</h2>
+        <p>You should <a rel="nofollow" href="http://twitter.com/abscondment">follow me</a> on Twitter, <a rel="nofollow" href="http://feeds.threebrothers.org/threebrothers/brendan">subscribe to the feed</a>, and <a rel="nofollow" href="https://github.com/abscondment">fork&nbsp;me</a>&nbsp;on&nbsp;Github.</p>
+      </div>
+      <div class="content wide">
+        <h1>Software</h1>
+        <p>Here are some software projects that I have published. For an up-to-date list, please <a href="http://github.com/abscondment" title="fork abscondment on GitHub">fork me (abscondment)</a> on GitHub.</p>
+        <dl>
+          <dt><a href="https://github.com/abscondment/clog" title="clog: blogging in Clojure">clog (Clojure application)</a></dt>
+          <dd>
+            <p>clog is a clojure application for generating a static blog from markdown and YAML. It powers this site.</p>
+          </dd>
+          <dt><a href="https://github.com/abscondment/lazy-gallery" title="lazy-gallery: an Android/Mirah demo">lazy-gallery (Mirah demo)</a></dt>
+          <dd>
+            <p>lazy-gallery demonstrates implementing a lazy loading image gallery in an Android application with Mirah.</p>
+          </dd>
+          <dt><a href="https://github.com/abscondment/mister-rogers" title="Mister Rogers: an efficient nearest-neighber query service">mister-rogers (Clojure service)</a></dt>
+          <dd>
+            <p>Mister Rogers is a service for efficient nearest-neighbor queries. It is built on top of <a href="https://github.com/ztellman/aleph">aleph</a> and clj-kdtree (see below).
+            </p>
+          </dd>
+          <dt><a href="http://github.com/abscondment/clj-kdtree" title="clj-kdtree: Clojure implementation of kD-trees, a space-partitioning binary tree useful for nearest-neighbor queries.">clj-kdtree (Clojure library)</a></dt>
+          <dd>
+            <p>clj-kdtree is a Clojure implementation of the <a href="http://en.wikipedia.org/wiki/Kd-tree" rel="nofollow">kD-tree data structure</a>. This type of binary tree partitions a set of points across each dimension, allowing for efficient nearest-neighbor search. It has been released as <a href="http://clojars.org/clj-kdtree">clj-kdtree on Clojars</a>.</p>
+          </dd>
+          <dt><a href="http://github.com/abscondment/statistics2" title="Statistics2: Ruby gem providing probabilistic distributions: normal distribution, chi-square distribution, t-distribution, F-distribution.">Statistics2 (Ruby gem)</a></dt>
+          <dd>
+            <p>Statistics2 is a module that provides <a href="http://en.wikipedia.org/wiki/Normal_distribution" rel="nofollow">normal</a>, <a href="http://en.wikipedia.org/wiki/Chi-square_distribution" rel="nofollow">Chi-square</a>, <a href="http://en.wikipedia.org/wiki/Student%27s_t-distribution" rel="nofollow">t-</a> and <a href="http://en.wikipedia.org/wiki/F-distribution" rel="nofollow">F-</a> <a href="http://en.wikipedia.org/wiki/Probability_distribution" rel="nofollow">probability distributions</a> for Ruby. It is a fork/continuation of <a href="http://raa.ruby-lang.org/project/statistics2/" rel="nofollow">Shin-ichiro Hara's</a> <a href="http://blade.nagaokaut.ac.jp/~sinara/ruby/math/statistics2/index.html" rel="nofollow">original code</a>; it has been updated for compatibility with Ruby 1.9 and has been released as the <a href="http://gemcutter.org/gems/statistics2">statistics2 ruby gem</a>.</p>
+          </dd>
+          <dt><a href="http://github.com/abscondment/rubyvor" title="RubyVor: Voronoi Diagrams and Delaunay Triangulation in Ruby">RubyVor (Ruby gem)</a></dt>
+          <dd>
+            <p><a href="http://gemcutter.org/gems/rubyvor">RubyVor is a ruby gem</a> providing efficient computation of <a href="http://en.wikipedia.org/wiki/Voronoi_diagram" rel="nofollow">Voronoi diagrams</a> and <a href="http://en.wikipedia.org/wiki/Delaunay_triangulation" rel="nofollow">Delaunay triangulations</a> in 2-dimensional space. It can be used for geospatial clustering of points, among other things.</p>
+            <p>It is implemented as a C extension using <a href="http://ect.bell-labs.com/who/sjf/" rel="nofollow">Steven Fortune's</a> sweepline algorithm and the original code that he published, along with some memory management improvements by <a href="http://www.derekbradley.ca" rel="nofollow">Derek Bradley</a>. It is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" rel="nofollow"><abbr title="Massachusetts Institute of Technology">MIT</abbr> License</a>.</p>
+          </dd>
+          <dt><a href="http://github.com/abscondment/protofarbtastic" title="Farbtastic for Prototype">protofarbtastic (JavaScript library)</a></dt>
+          <dd>
+            <p>protofarbtastic is a port of <a href="http://acko.net/dev/farbtastic" rel="nofollow">Steven Wittens' farbtastic color picker</a>. The original farbtastic is built as a jQuery plugin; protofarbtastic has been rewritten to sit on top of the Prototype framework instead.</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="footer">
+        Copyright &copy; Brendan Ribera <span class='currentYear'>2010</span>. This work is licensed as <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" rel="license nofollow"><img alt="Creative Commons Attribution-Share Alike 3.0 United States License" src="/brendan/images/cc_by-sa_80x15.png" style="border-width:0;vertical-align:top;" /></a>
+      </div>
     </div>
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
