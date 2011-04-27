@@ -5,3 +5,4 @@ public/sitemap.*
 public/blog/*/*.html
 public/blog/*/*.md5sum
 public/blog/page/*
+config.clj
