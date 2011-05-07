@@ -1,7 +1,7 @@
 I've been building an application from scratch, and I want to go with
 the latest and greatest of the Ruby world. It's not yet clear to me
-which of Ruby 1.9.2, JRuby, and REE fit the bill &ndash; but I've
-picked 1.9.2. &ndash; at least for now.
+which of Ruby 1.9.2, JRuby, and REE fit the bill, but I've picked
+1.9.2. &ndash; at least for now.
 
 I'm building around Ubuntu server, and am automating this process with
 Chef. I've seen two different companies get stuck on outdated Ruby or
