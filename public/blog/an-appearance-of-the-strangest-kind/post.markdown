@@ -2,7 +2,7 @@ Given my current time constraints, a single cogent blog post would
 constitute a strange enough appearance. But I have something rarer and
 more fascinating in store for you, Dear Reader:
 
-I'll be giving [a talk at this year's Strange Loop](https://thestrangeloop.com/sessions)!
+I'll be giving [a talk at this year's StrangeLoop](https://thestrangeloop.com/sessions)!
 
 I'm *incredibly* excited about this. I'll be speaking on using Mirah
 for Android development &ndash; something I've
