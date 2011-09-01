@@ -17,9 +17,10 @@ Ubuntu 11.04 provides a fake 1.9.2 package that is provided by
 all of the binaries are suffixed with 1.9.1. I hate this false naming
 on a purely conceptual level, but I'm sure there's some Debian-based
 compatibility issue and I could get over it. However, there have been
-two [important](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog) 
+three [important](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_136/ChangeLog)
 [releases](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_180/ChangeLog)
-to 1.9.2 that contain significant bug fixes. The combination makes that
+[since](http://svn.ruby-lang.org/repos/ruby/tags/v1_9_2_290/ChangeLog)
+1.9.2-p0 that contain significant bug fixes. The combination makes that
 a show stopper for me.
 
 ## RVM
@@ -68,9 +69,9 @@ Here's the build process I settled on:
     sudo apt-get -y install zlib1g-dev libssl-dev libreadline5-dev
     libyaml-dev build-essential bison checkinstall
     cd /tmp
-    wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p180.tar.gz
-    tar xvzf ruby-1.9.2-p180.tar.gz
-    cd ruby-1.9.2-p180
+    wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
+    tar xvzf ruby-1.9.2-p290.tar.gz
+    cd ruby-1.9.2-p290
     ./configure --prefix=/usr\
                 --program-suffix=1.9.2\
                 --with-ruby-version=1.9.2\
@@ -80,7 +81,7 @@ Here's the build process I settled on:
                       --fstrans=no\
                       --nodoc\
                       --pkgname='ruby1.9.2'\
-                      --pkgversion='1.9.2-p180'\
+                      --pkgversion='1.9.2-p290'\
                       --provides='ruby'\
                       --requires='libc6,libffi5,libgdbm3,libncurses5,libreadline5,openssl,libyaml-0-2,zlib1g'\
                       --maintainer=brendan.ribera@gmail.com
@@ -99,3 +100,5 @@ is completely accurate. What I do know is that all of this works.
 I can now automate installation of this package on any machine I
 provision and instantly have the latest Ruby patch level with properly
 named binaries. Cool!
+
+*Updated 2011-09-01 15:12 to point this script at the **1.9.2-p290** release.*
