@@ -97,13 +97,13 @@ ul.menu li a:hover {
 }
 .content p { margin:1.5em 0; }
 .wide { width:auto; }
+.date { font-size:0.8em; color:#aaa; }
 
 .content .rightImage {float:right;text-align:center;margin: 0 0 1em 1em;}
 .content .borderedImage { border:1px solid #666; }
 
 ul.posts { margin:0; padding:0; }
 ul.posts li.post { padding:0; margin:0 0 1.5em 0; list-style-type:none; }
-ul.posts li.post .date { font-size:0.8em; color:#aaa; }
 
 div.nextLinks {clear:both;margin:2em 0 1em 0; text-align:center;}
 div.nextLinks div.middle h3 {margin:0 auto;display:inline;}
