@@ -98,6 +98,7 @@ ul.menu li a:hover {
 .content p { margin:1.5em 0; }
 .wide { width:auto; }
 .date { font-size:0.8em; color:#aaa; }
+div.content.post .date { margin-bottom:-1.875em; }
 
 .content .rightImage {float:right;text-align:center;margin: 0 0 1em 1em;}
 .content .borderedImage { border:1px solid #666; }

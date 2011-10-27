@@ -7,9 +7,8 @@
         <div id='menu'></div>
       </div>
       <div class="banner"><h1 class="title"></h1></div>
-      <div class="content">
+      <div class="content post">
         <h1><a></a></h1>
-        <br/>
         <div id="disqus_thread"></div>
         <noscript><p><a href="http://disqus.com/forums/tbdo-brendan/?url=ref">View the discussion thread.</a></p></noscript>
         <div style="clear:both;margin:2em 0 1em 0;">
