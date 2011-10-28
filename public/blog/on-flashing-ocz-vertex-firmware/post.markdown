@@ -29,6 +29,6 @@ Use Linux, either a Live CD or a full installation. When the drive
 appears as locked/frozen, suspend the computer and wake it up
 again. Or even plug the drive in after booting up, although this seems
 marginally risky for drives that already contain data. Either of these
-shouldtrick the drive into unfreezing (I only verified the first).
+should trick the drive into unfreezing (I only verified the first).
 
 Simple, yet unintuitive.
