@@ -1,4 +1,4 @@
-Two weeks ago, Hazel Belle Ribera was born!
+On December 20, 2011, Hazel Belle Ribera was born!
 
 ![Newborn](/brendan/images/hazel-birth/01.jpg)
 
