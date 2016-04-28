@@ -6,3 +6,10 @@ public/blog/*/*.html
 public/blog/*/*.md5sum
 public/blog/page/*
 config.clj
+
+# hakyll
+/_cache
+/.cabal-sandbox
+/site.hi
+/site.o
+/site
