@@ -1,0 +1,26 @@
+---
+date:  2008-05-21
+title: There and back again: the return to Linux (updated)
+---
+When I started at <a href="http://ilike.com/user/brendanribera">iLike</a> in October, I chose a MacBook Pro as my development machine.  After months of my attempting to adapt to OSX, that Macbook is now running Linux.  Macs have always been lauded for their superior usability; while I can corroborate this sentiment with respect to Windows' <acronym title="User Interface">UI</acronym>, I consistently found OSX cloying and claustrophobia-inducing when compared to a standard Linux environment.  So I nuked it.
+
+Here are some interesting things I learned in the process:
+
+<ul>
+  <li>OSX relies on a ~200MB EFI system partition.  The MacBook's BIOS looks for this partition <em>everywhere</em> before performing a standard boot from the hard drive's <acronym title="Master Boot Record">MBR</acronym>.  There are two "gotchas" as a result of this silly operating system <acronym title="Digital Rights Management">DRM</acronym>:
+    <ol>
+      <li>If you want to dual boot with <em>any</em> other operating system, you have to use a proprietary program from within OSX to write to the EFI partition.  This isn't that hard, since the program works well and nearly all of the online documentation instructs the user to perform this method.<br/><br/></li>
+      <li>If you're like me and you don't want to dual boot, you have to set an MSDOS disklabel on the hard drive's first partition and make it bootable before the MacBook's BIOS will attempt to boot it.  I found that at one of the few sites referring to <a href="http://slu.ms/articles/ubuntu-linux-on-the-macbook">booting only Linux on a MacBook</a>.  Additionally, booting will involve ~20 seconds of annoying white screen while the MacBook's BIOS searches desperately for the missing EFI partition.<br/><br/></li>
+    </ol>
+  </li>
+  <li>Since the MacBook has a Core 2 Duo, you can install the poorly-named AMD64 branch of whatever distribution you're using.  If you happen to install Ubuntu like I did, peruse the <a href="http://ubuntuforums.org/forumdisplay.php?s=e33b9a6ef38cfc8fadd59b78fb2e8c18&amp;f=343">x86 64-bit Users Ubuntu forum</a> to get abreast of any odd architecture-related issues.  Since many programs (Firefox and Thunderbird, for example) are 32-bit, it's important to get all of the necessary 32-bit compatibility libraries installed.<br/><br/>In Ubuntu, lacking these libraries means that a fresh download of Firefox or Thunderbird won't be able to access the internet &mdash; lame.  To solve, install <tt>lib32nss-mdns</tt> (ala <a href="http://ubuntuforums.org/showthread.php?t=796225">this thread</a>).</li>
+</ul>
+
+<b>Update:</b> <a href="http://thenullpointer.net">Dustin</a> asks what my particular complaints are.  Well, here goes...</p><div>&lt;joking&gt;<ul style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;"><li style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0;">The missing right-hand mouse button</li></ul>&lt;/joking&gt;<br/><br/></div><p>Seriously, though; it was a combination of these things:
+<ul>
+  <li>The crazy focus model: you can't actually click on a control inside a window unless that window already has focus.<br/><br/>Imagine that Thunderbird has the focus and is sitting in one of two monitors; if I want to view a different tab in the instance of Firefox that sits on the other monitor (Firefox is visible, but doesn't have focus), I have to click twice: once to attain focus, once to actually click the tab I want to view.<br/><br/></li>
+  <li>Shortcut keys.  I know, everything can be changed; it's just ridiculous to have to go through and reset all of the defaults<br/><br/></li>
+  <li>1-dimensional desktop.<br/><br/>I didn't have <a href="http://www.apple.com/macosx/features/spaces.html">Leopard and its "Spaces"</a>, which would probably have scratched this itch.  But I've really grown to be <em>dependent</em> on Compiz and all of the little ways you can customize it.  Even with Spaces, you just don't have the same degree of granularity that Compiz offers.  Plus, I'll add the totally emotional, worthless argument that Spaces is an obvious knock-off of Compiz since Linux desktops have been doing this for a good long while.<br/><br/></li>
+  <li>Performance &mdash; both mine and the machine's.<br/><br/>OSX can't keep up with a well-tuned Linux installation.  Sure, both Linux and OSX can run laps around your year-old, bloated Windows installation.  Nevertheless, I kept getting frustrated with how things would freeze up.  Windows has the <acronym title="Blue Screen Of Death">BSOD</acronym>; OSX has the <acronym title="Beach Ball of Frustration">BBOF</acronym>.<br/><br/>Additionally, my own performance was suboptimal under OSX.  Perhaps if I had made a complete switch (and not retained my Linux <em>skillz</em> by using it at home and work every day) I would have adapted; as it is, I kept on tripping on these and other subtle UI differences.<br/><br/></li>
+  <li>In general, Linux is a much more developer-friendly environment.  I find it faster to set up, and faster to alter.  That has to do with personal preference and knowledge more than anything else.</li>
+</ul>

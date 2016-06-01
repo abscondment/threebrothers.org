@@ -1,0 +1,6 @@
+---
+date:  2004-04-30
+title: Now that I'm thinking...
+---
+Now that I'm thinking, I should say something about April 27<sup>th</sup>.  April 27<sup>th</sup> of 2001 was the day that I asked Jessica to date me.  It's been 3 years now.  That's a long time.  We've grown a lot since then, and I must say I only see us getting closer as time plods along.  Now if I could only get into major and graduate...
+*sigh*

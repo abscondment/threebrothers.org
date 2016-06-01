@@ -1,0 +1,18 @@
+---
+date:  2008-01-25
+title: Can book preferences predict intelligence?
+---
+Caltech graduate student <a href="http://virgil.gr/">Virgil Griffith</a> has performed an interesting data mining feat: <a href="http://booksthatmakeyoudumb.virgil.gr/">correlating SAT scores to book preferences</a> based on Facebook's college network statistics (<a href="http://radar.oreilly.com/archives/2008/01/books_that_make.html">via O'Reilly</a>).
+
+He posits the findings as "Books that make you dumb" &mdash; a stupendously controversial title that's likely aimed at drawing people in to peruse his results.  Well, here we are.  This study is an interesting attempt at computing the average SAT scores of the college students who read certain books.  However amusing the results may be, the research methodology is largely flawed.
+
+It could suffice to say that correlation is not causation, that describing what "smarter" and "stupider" people read does not in fact demonstrate any causal relationship between reading preference and intelligence levels.  There are deeper problems, however:
+
+<ol>
+  <li><b>The survey population is ill defined.</b><br /><br />The data are collected from two different groups: the SAT scores for incoming Freshmen for a given school (presumably all students at that school) are averaged, but the book choices are only taken from the subset of students who have joined Facebook, joined their school's network, <em>and</em> listed which books they like.  Arguing that this is acceptable because &quot;everyone in college is on Facebook&quot; is both unscientific and untrue.  If the sample populations aren't homogeneous, it's fruitless to even draw a correlation (much less to infer causal relationship).<br /><br /></li>
+  <li><b>The input data introduce significant imprecision.</b><br /><br />Even if the sample population made sense and was consistent between the book data and the SAT data, <em>averaged</em> scores necessitate statistical variation within the college in question (unless, of course, &sigma; [the standard deviation] is 0 &mdash; that would mean everyone at the college has the same SAT score).  In real colleges, a wide range of scores make up the average.  A correlation of averages introduces a degree of imprecision, which grows as &sigma; does.<br/><br/>To illustrate this problem, consider the following situation:<br/><br/>Four Year University has an average SAT score of 1000, and 100% of its students use Facebook.  The top 10% of its students all scored above 1200, but the bottom 25% all scored below 900.  The people in the middle average everything out.  If we hypothesize that people read <em>more</em> &mdash; regardless of what they read &mdash; if they have higher SAT scores, we encounter an interesting issue.  The top 10 book list on Facebook may be dominated by consensus among the upper 10%, while the bottom 90% reads so few books that they don't create enough commonality to push those books higher.  Since the university's score is averaged, and since the book listing is merely <b>ordinal</b> data, we can't actually extract meaning by correlating the two sets.  There's too much imprecision.</li>
+</ol>
+
+I understand the impetus behind this study.  It's a variation on the quest for high art and low art; splitting the masses based on what they think is good.  I'm not going to take one side or the other in that argument (at least, not right now).  I don't think sensationally unscientific research lends credibility to one's argument, either way.  However: when I read a book, I know what I like.
+
+<blockquote><p><em>Little red wagon<br/>Little red bike<br/>I ain't no monkey but I know what I like.</p></em><p>(Bob Dylan)</p></blockquote>
