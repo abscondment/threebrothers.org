@@ -1,14 +1,6 @@
-*.jar
-public/index.html
-public/blog/*.xml
-public/sitemap.*
-public/blog/*/*.html
-public/blog/*/*.md5sum
-public/blog/page/*
-config.clj
-
 # hakyll
 /_cache
+/_site
 /.cabal-sandbox
 /dist
 /site.hi
