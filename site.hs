@@ -42,7 +42,7 @@ main = hakyll $ do
     create ["blog/archive/index.html"] $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAllSnapshots "public/blog/**/*.markdown" "snippet"
+            posts <- recentFirst =<< loadAllSnapshots "blog/**/*.markdown" "snippet"
             let archiveCtx =
                     listField "posts" snippetCtx (return posts) `mappend`
                     constField "title" "Archives"               `mappend`
