@@ -24,13 +24,13 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about/index.html", "software/index.html"]) $ do
         route   niceRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
-    match "public/blog/**/*.markdown" $ do
+    match "blog/**/*.markdown" $ do
         route $ niceRoute
         compile $ pandocCompiler
           >>= saveSnapshot "snippet"
@@ -39,7 +39,7 @@ main = hakyll $ do
           -- >>= removeIndexHtml
           >>= relativizeUrls
 
-    create ["public/blog/archive/index.html"] $ do
+    create ["blog/archive/index.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAllSnapshots "public/blog/**/*.markdown" "snippet"
@@ -52,10 +52,10 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
-    match "public/blog/index.html" $ do
+    match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- fmap (take 7) . recentFirst =<< loadAllSnapshots "public/blog/**/*.markdown" "snippet"
+            posts <- fmap (take 7) . recentFirst =<< loadAllSnapshots "blog/**/*.markdown" "snippet"
             let indexCtx =
                   listField "posts" snippetCtx (return posts)                `mappend`
                   constField "title" "Quod erat faciendum - Brendan Ribera" `mappend`
