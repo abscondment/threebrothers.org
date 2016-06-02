@@ -20,6 +20,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "js/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
@@ -27,8 +31,9 @@ main = hakyll $ do
     match (fromList ["about/index.html", "software/index.html"]) $ do
         route   niceRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
+          >>= loadAndApplyTemplate "templates/default.html" defaultContext
+          >>= removeIndexHtml
+          >>= relativizeUrls
 
     match "blog/**/*.markdown" $ do
         route $ niceRoute
@@ -39,7 +44,7 @@ main = hakyll $ do
           >>= removeIndexHtml
           >>= relativizeUrls
 
-    create ["blog/archive/index.html"] $ do
+    create ["blog/archives/index.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAllSnapshots "blog/**/*.markdown" "snippet"
@@ -48,10 +53,10 @@ main = hakyll $ do
                     constField "title" "Archives"               `mappend`
                     defaultContext
             makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                >>= removeIndexHtml
-                >>= relativizeUrls
+              >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
+              >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+              >>= removeIndexHtml
+              >>= relativizeUrls
 
     match "index.html" $ do
         route idRoute
@@ -62,10 +67,10 @@ main = hakyll $ do
                   constField "title" "Quod erat faciendum - Brendan Ribera" `mappend`
                   defaultContext
             getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
-                >>= removeIndexHtml
-                >>= relativizeUrls
+              >>= applyAsTemplate indexCtx
+              >>= loadAndApplyTemplate "templates/default.html" indexCtx
+              >>= removeIndexHtml
+              >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
 

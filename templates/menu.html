@@ -1,0 +1,29 @@
+<div id='menu'>
+  <ul class="menu">
+    <li>
+      $if(about)$
+      <a href="/">Blog</a>
+      $else$
+        $if(software)$
+      <a href="/">Blog</a>
+        $else$
+      <a class="selected" href="/">Blog</a>
+        $endif$
+      $endif$
+    </li>
+    <li>
+      $if(about)$
+      <a class="selected" href="/about/">About</a>
+      $else$
+      <a href="/about/">About</a>
+      $endif$
+    </li>
+    <li>
+      $if(software)$
+      <a class="selected" href="/software/">Software</a>
+      $else$
+      <a href="/software/">Software</a>
+      $endif$
+    </li>
+  </ul>
+</div>

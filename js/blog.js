@@ -25,7 +25,7 @@ var loadGA = function() {
 var loadDisqus = function() {
   var links = document.getElementsByTagName('a');
   var query = '?';
-  
+
   for(var i = 0; i < links.length; i++) {
     if(links[i].href.indexOf('#disqus_thread') >= 0) {
       query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
@@ -35,23 +35,20 @@ var loadDisqus = function() {
   var embedEl = document.createElement('script');
   embedEl.type = 'text/javascript';
   embedEl.charset = 'utf-8';
-  embedEl.src = 'http://disqus.com/forums/tbdo-brendan/embed.js';
+  embedEl.src = '//disqus.com/forums/tbdo-brendan/embed.js';
   embedEl.onload = function() {
     var disqusEl = document.createElement('script');
     disqusEl.type = 'text/javascript';
     disqusEl.charset = 'utf-8';
-    disqusEl.src = 'http://disqus.com/forums/tbdo-brendan/get_num_replies.js' + query;
+    disqusEl.src = '//disqus.com/forums/tbdo-brendan/get_num_replies.js' + query;
     document.getElementsByTagName('head')[0].appendChild(disqusEl);
   };
   document.getElementsByTagName('head')[0].appendChild(embedEl);
-  
+
 
 };
-    
+
 var deferredLoad = function() {
   setTimeout(loadDisqus, 750);
   setTimeout(loadGA, 1);
 };
-
-
-

@@ -14,7 +14,7 @@ Three weeks ago we were nine days "overdue". Despite the fact that our midwife h
 
 After lunch at [Cactus](http://www.urbanspoon.com/r/1/1130/restaurant/Madison-Park/Cactus-Madison-Park-Seattle), we headed home to walk some more. This is when the fun began &ndash; and I mean that quite literally. We had *fun* walking around, talking, and speculating about how events would progress. A package containing the digital camera I had purchase for Mothers' Day arrived &ndash; just in time! Jessica's contractions were increasing in frequency, but remained painless. Then a few of them started to feel perhaps the slightest bit painful. We updated our midwife, Cindie, and she told us to call for the tub. Jessica still wasn't convinced that she was *actually* in labor, and we dallied for another hour before actually placing the call.
 
-![The labor tub](images/ivo-birth-02.jpg)
+![The labor tub](/images/ivo-birth-02.jpg)
 
 The contractions continued to accelerate slowly, but Jessica still found them to be completely tolerable. Our friend Brenna came over (she was present at Ezra's birth, too), and we all waited. Jessica and I sat on the couch, hugged during each contraction, watched *So I Married an Axe Murderer*, and got to enjoy each other's company. It was like a fun, carefree date. At some point the tub arrived, and we waited for it to fill. The contractions grew more serious, but Jessica still marveled at how easy they were to deal with. We laughed, snuggled, and expressed our complete mystery at how easy things were.
 

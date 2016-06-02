@@ -11,22 +11,10 @@
 
     -->
   </head>
-  <body>
+  <body onload="setTimeout('deferredLoad();', 5);">
     <div class="envelope">
       <div class="lbar">
-        <div id='menu'>
-          <ul class="menu">
-            <li>
-              <a class="selected" href="/">Blog</a>
-            </li>
-            <li>
-              <a href="/about/">About</a>
-            </li>
-            <li>
-              <a href="/software/">Software</a>
-            </li>
-          </ul>
-        </div>
+        $partial("templates/menu.html")$
       </div>
       <div class="banner">
         <h1 class="title">Quod erat faciendum</h1>
