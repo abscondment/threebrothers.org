@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
--- {-# LANGUAGE FlexibleContexts #-}
+{-# LANGUAGE FlexibleContexts #-}
 
 import           Hakyll
 import           Control.Monad          (forM,forM_)
@@ -36,7 +36,7 @@ main = hakyll $ do
           >>= saveSnapshot "snippet"
           >>= loadAndApplyTemplate "templates/post.html"    postCtx
           >>= loadAndApplyTemplate "templates/default.html" postCtx
-          -- >>= removeIndexHtml
+          >>= removeIndexHtml
           >>= relativizeUrls
 
     create ["blog/archive/index.html"] $ do
@@ -50,6 +50,7 @@ main = hakyll $ do
             makeItem ""
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
+                >>= removeIndexHtml
                 >>= relativizeUrls
 
     match "index.html" $ do
@@ -60,10 +61,10 @@ main = hakyll $ do
                   listField "posts" snippetCtx (return posts)                `mappend`
                   constField "title" "Quod erat faciendum - Brendan Ribera" `mappend`
                   defaultContext
-
             getResourceBody
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= removeIndexHtml
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
@@ -84,15 +85,15 @@ niceRoute = customRoute createIndexRoute
     createIndexRoute ident = takeDirectory p </> "index.html"
       where p = toFilePath ident
 
--- -- replace url of the form foo/bar/index.html by foo/bar
--- removeIndexHtml :: Item String -> Compiler (Item String)
--- removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
---   where
---     removeIndexStr :: String -> String
---     removeIndexStr url = case splitFileName url of
---         (dir, "index.html") | isLocal dir -> dir
---         _                                 -> url
---         where isLocal uri = not (isInfixOf "://" uri)
+-- replace url of the form foo/bar/index.html by foo/bar
+removeIndexHtml :: Item String -> Compiler (Item String)
+removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
+  where
+    removeIndexStr :: String -> String
+    removeIndexStr url = case splitFileName url of
+        (dir, "index.html") | isLocal dir -> dir
+        _                                 -> url
+        where isLocal uri = not (isInfixOf "://" uri)
 
 
 -- inspired by https://github.com/dannysu/hakyll-blog/blob/a1a7533ee0dcb8bc61511783c4702b1fb4925739/site.hs#L167
