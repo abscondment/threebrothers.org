@@ -10,6 +10,8 @@ config.clj
 # hakyll
 /_cache
 /.cabal-sandbox
+/dist
 /site.hi
 /site.o
 /site
+/.stack-work
