@@ -1,0 +1,124 @@
+.green { background-color: #78973c; }
+.black { color: #000; }
+#seedsCalculator {
+    font-size: 2em;
+    color: #999;
+}
+#seedsCalculator dd,
+#seedsCalculator dt {
+    font-size:0.6em;
+    width:50%;
+    margin:0;
+    padding:0;
+}
+#seedsCalculator fieldset {
+    width: 8em;
+    text-align:left;
+    padding:0.25em;
+    border-color: black;
+}
+
+#seedsCalculator fieldset dl { margin:0.25em 0 0 0; }
+.small,
+#seedsCalculator fieldset legend,
+#seedsCalculator fieldset h2 {
+    font-size:0.6em;
+    margin:0;
+    padding:0;
+}
+
+#seedsCalculator dt, #seedsCalculator dd {float: left; vertical-align: bottom; line-height:2em;}
+.percentage {
+    padding-bottom: 0.8em;
+}
+.percentage, .percentage input {
+    color: #fff;
+    margin:0;
+}
+.percentage input {
+    background-color: #78973c;
+    width:2.8em;
+}
+#seedsCalculator table tr td input {
+    font-size:1em;
+    border: none;
+    padding:0.25em 0;
+    text-align:center;
+}
+
+#seedsCalculator table tr td input {
+    border-bottom: 2px solid #999;
+    outline-width: 0;
+}
+#seedsCalculator table tr td.percentage input {
+    border-bottom: 2px solid #78973c;
+}
+
+#seedsCalculator fieldset input { width: 4em; }
+#seedsCalculator .carat {
+    font-size:0.6em;
+    color:#fff;
+    text-align:center;
+    padding:0;
+    margin:2px 0 0 0;
+    line-height:0.8em;
+    vertical-align:top;
+    height:0.9em;
+}
+.captionPad {
+    width:8.7em;
+    text-align:center;
+    margin-left:auto;
+}
+.right {text-align:right;}
+
+#seedsCalculator dl dt, .captionPad { font-style: italic; }
+
+@media only screen and (max-width: 800px) {
+
+    #seedsCalculator table tr td input {
+        width: 4em;
+    }
+    #seedsCalculator input[name=percentage] {
+        width: 4em;
+    }
+
+    #seedsCalculator table,
+    #seedsCalculator thead,
+    #seedsCalculator tbody,
+    #seedsCalculator th,
+    #seedsCalculator td,
+    #seedsCalculator tr {
+        display: block;
+    }
+
+    #seedsCalculator thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #seedsCalculator td {
+        border: none;
+        position: relative;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #seedsCalculator td.percentage {
+        text-align:center;
+        padding-left: 0;
+    }
+
+    #seedsCalculator td:before {
+        position: absolute;
+        padding-right: 1em;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    #seedsCalculator fieldset {
+        margin:1em auto;
+    }
+}

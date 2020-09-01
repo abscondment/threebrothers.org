@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="blogcatalog" content="9BC9690896" />
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link type="text/css" rel="stylesheet" href="//threebrothers.org/brendan/seeds.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="//threebrothers.org/brendan/seeds.js"></script>
+
+    <title>Seeds Giving Calculator</title>
+</head>
+  <body>
+    <style type="text/css">
+      #seedsCalculator { font-family: sans-serif; }
+    </style>
+
+<!-- begin calculator snippet -->
+<form id="seedsCalculator">
+  <table>
+    <tr>
+      <td colspan="2" class="percentage">
+        <input name="percentage" value="10%" />
+      </td>
+      <td>
+        <span class="black">of</span>&nbsp;$<input name="salary" size="9" />
+        <div class="right"><div class="small captionPad">annual salary</div></div>
+      </td>
+      <td>
+        <span class="black">=</span>&nbsp;$<input name="annual_giving" size="10" readonly="readonly" />
+        <div class="right"><div class="small captionPad">annual giving</div></div>
+      </td>
+      <td colspan="2" rowspan="2">
+        <fieldset>
+          <h2 class="black">Frequency:</h2>
+          <dl>
+            <dt>weekly</dt>
+            <dd>$<input id="weekly" readonly="readonly" /></dd>
+
+            <dt>monthly</dt>
+            <dd>$<input id="monthly" readonly="readonly" /></dd>
+
+            <dt>quarterly</dt>
+            <dd>$<input id="quarterly" readonly="readonly" /></dd>
+
+            <dt>bi-annually</dt>
+            <dd>$<input id="biAnnually" readonly="readonly" /></dd>
+          </dl>
+        </fieldset>
+      </td>
+    </tr>
+  </table>
+</form>
+<!-- end calculator snippet -->
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">      
+      try {
+        //var pageTracker = _gat._getTracker("UA-12753089-1");
+        //pageTracker._setDomainName(".threebrothers.org");
+        //pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+
+</html>
