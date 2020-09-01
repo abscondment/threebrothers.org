@@ -1,4 +1,4 @@
-<img src="http://threebrothers.org/brendan/blog/files/duckt.gif" alt="Duckbot" style="border:0 0 0 1em;float:right;" />
+<img src="//threebrothers.org/brendan/blog/files/duckt.gif" alt="Duckbot" style="border:0 0 0 1em;float:right;" />
 
 Ruby is all about the duck-typing.  Most of the time, I am too.  But sometimes, it can lead to some very confusing and very nasty issues.
 

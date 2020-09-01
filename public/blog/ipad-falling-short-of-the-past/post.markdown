@@ -1,5 +1,5 @@
 <p>
-  <img src="http://threebrothers.org/brendan/images/jobs-ipad.png" alt="Steve Jobs and the iPad" style="float:right;margin:0 0 0 1em;" />
+  <img src="//threebrothers.org/brendan/images/jobs-ipad.png" alt="Steve Jobs and the iPad" style="float:right;margin:0 0 0 1em;" />
   Steve Jobs announced the iPad this week, and technologists have run the gamut of responses. Some people think it will fart rainbows. Some think its reason-defying sorcery and closed software will <a href="http://al3x.net/2010/01/28/ipad.html" rel="nofollow">inveigle unsuspecting hackers into a gloomy extinction</a>. For the most part, however, the response has amounted to a <a href="http://www.youtube.com/watch?v=lQnT0zp8Ya4" rel="nofollow">banal whine</a> about Flash, multitasking, and maxi pads. Why anyone would complain about <em>not</em> being continually tortured by Flash is beyond me&mdash;but that's another post entirely.
 </p>
 
@@ -32,7 +32,7 @@
 </p>
 
 <p>
-  <img src="http://threebrothers.org/brendan/images/parcpad.png" alt="The ParcPad" style="float:left;margin:0 1em 0 0;" />
+  <img src="//threebrothers.org/brendan/images/parcpad.png" alt="The ParcPad" style="float:left;margin:0 1em 0 0;" />
   Critics are right to be at least a little disappointed, but not due to the likes of Flash or multitasking. The iPhone and iPad are still behind research prototyped at PARC (yes, them again) in the late 80s. Mark Weiser's <a href="http://sandbox.xerox.com/ubicomp/" rel="nofollow">Ubiquitous Computing research</a> conceived of and built a variety of devices for home and office use&mdash;called tabs, pads, and boards&mdash;sized just like iPhones, iPads, and large LCD screens. They even wrote software and built networking devices to stitch the environment together.
 </p>
 

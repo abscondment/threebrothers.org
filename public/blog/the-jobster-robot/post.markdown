@@ -2,6 +2,6 @@ The <a href="http://jobster.blogs.com/blog_dot_jobster_dot_com/2007/08/more-feat
 
 Here's a sample of the output it gives based on my Facebook profile:
 
-<a href="http://threebrothers.org/brendan/blog/files/robot-tags.png"><img src="http://threebrothers.org/brendan/blog/files/robot-tags-thumb.png" alt="Tagging example" /></a>
+<a href="http://threebrothers.org/brendan/blog/files/robot-tags.png"><img src="//threebrothers.org/brendan/blog/files/robot-tags-thumb.png" alt="Tagging example" /></a>
 
 Pretty good, considering the paucity of job-related data in Facebook profiles.

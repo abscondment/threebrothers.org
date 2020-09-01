@@ -16,6 +16,6 @@ Take Two is played with a bag of Scrabble letters.  It can be played with up to 
 
 For those who dislike Scrabble because of its slow pace, boring turns, and restrictive form, this game can be a lot of fun.  Those of you who like Scrabble will likely like this game, too.  It's fast-paced, a lot of fun, and easy to explain.  You can even play by yourself, like I did for a while one day.  Check out my ultimate masterpiece, pictured below:
 
-<blockquote><img id="image25" src="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/01/take-two.png" alt="Ultimate Points!" /><br /><small><em>Every letter that's worth more than one point is used twice in this arrangement</em></small></blockquote>
+<blockquote><img id="image25" src="//threebrothers.org/brendan/blog/wp-content/uploads/2007/01/take-two.png" alt="Ultimate Points!" /><br /><small><em>Every letter that's worth more than one point is used twice in this arrangement</em></small></blockquote>
 
 If my count is correct, the above arrangement is 327 points.  If you manage to arrange for a higher point value, send me a picture and I'll post some congratulations for you.  But try it from scratch; don't just arrange them like above and try to tweak it.  I'm sure it'd be trivial to eek out a few more points from my arrangement--I want to see some originality.

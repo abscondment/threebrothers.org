@@ -1,6 +1,6 @@
 At iLike, we have a really cool page showing <a href="http://ilike.com/artist">the fastest-spreading songs</a> among our user base.  That page has many, many songs on it, and &mdash; as you can see below &mdash; you can listen to clips of many of those songs.
 
-<img src="http://threebrothers.org/brendan/blog/files/mac-rendering-bug.png" alt="Mac rendering bug" style="border:2px solid #666;padding:.25em;width:500px;" />
+<img src="//threebrothers.org/brendan/blog/files/mac-rendering-bug.png" alt="Mac rendering bug" style="border:2px solid #666;padding:.25em;width:500px;" />
 
 We have a pretty awesome clip player that indicates how far along you are in the song you're currently playing.  It does this by positioning a <em>&lt;div&gt;</em> behind the track title and artist name, and resizing it as time elapses.  The title and artist name are stuck inside a <em>&lt;span&gt;</em> &mdash; the red box surrounding "<em>New York</em> by Cat Power" in the above picture is this very element.  It provides a great visual effect, unless you're both a Firefox user and a Mac user.
 

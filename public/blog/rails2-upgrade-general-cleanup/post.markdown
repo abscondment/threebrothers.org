@@ -20,4 +20,4 @@ ack @request . | cut -d ':' -f 1 | uniq | xargs sed -i 's/@request/request/g'
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/653085.js?file=replace.sh"></script>
+<script src="//gist.github.com/653085.js?file=replace.sh"></script>

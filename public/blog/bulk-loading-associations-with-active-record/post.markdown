@@ -22,7 +22,7 @@ many-to-many relationship, and have associations defined like so:
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578503.js" type="text/javascript"></script>    
+<script src="//gist.github.com/578503.js" type="text/javascript"></script>    
 
 This is basically the model we use at Urbanspoon. 
 
@@ -70,7 +70,7 @@ all of them. What's the best way to do this?
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578505.js" type="text/javascript"></script>
+<script src="//gist.github.com/578505.js" type="text/javascript"></script>
 
 This takes an average of ~12.25 seconds to complete <em>with a hot query
 cache</em>. True to intuition, na&iuml;ve loading of associations
@@ -107,7 +107,7 @@ times and create N objects with identical information.
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578508.js" type="text/javascript"></script>
+<script src="//gist.github.com/578508.js" type="text/javascript"></script>
 
 Great! We achieved an average speed of almost exactly twice as fast
 (~5.63 seconds) by using ActiveRecord's built-in association
@@ -132,7 +132,7 @@ over 2000 unique Cuisine objects. See?
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578511.js" type="text/javascript"></script>
+<script src="//gist.github.com/578511.js" type="text/javascript"></script>
 
 Oy. That means we're consuming roughly 27.4 times the memory and clock
 cycles required to instantiate and retain Cuisines. So, what's the
@@ -176,7 +176,7 @@ few comments to share about it later. But first, the code!
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578513.js" type="text/javascript"></script>  
+<script src="//gist.github.com/578513.js" type="text/javascript"></script>  
 
 OK, that seems reasonable enough. What are the times like?
 
@@ -207,7 +207,7 @@ OK, that seems reasonable enough. What are the times like?
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/578514.js" type="text/javascript"></script>  
+<script src="//gist.github.com/578514.js" type="text/javascript"></script>  
     
 Wow, an average of 3.18s! That's significantly faster than the
 association loading version. And it uses far less memory, too. In

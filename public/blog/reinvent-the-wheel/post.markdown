@@ -2,7 +2,7 @@ I spent a few days of last week pursuing a novel activity: building a bicycle wh
 
 This marked a milestone of sorts in my journey as an amateur mechanic. It's one of those (seemingly) daunting tasks that (seemingly) impresses others once completed: &quot;Wow, and you actually rode on that without experiencing some horrific and injurious crash? Cool!&quot; But it also produces a fair amount of skepticism: &quot;Why not just buy one?&quot;, &quot;Wow, seems like a lot of unnecessary work...&quot; and so on.
 
-<div style="text-align:center;"><img src="http://threebrothers.org/brendan/images/reinvent-wheel.jpg" alt="Lacing the wheel." /><br/><em>Lacing the wheel.</em></div>
+<div style="text-align:center;"><img src="//threebrothers.org/brendan/images/reinvent-wheel.jpg" alt="Lacing the wheel." /><br/><em>Lacing the wheel.</em></div>
 
 There were, quite naturally, a few jokes about me reinventing the wheel. And these set me to thinking.
 
@@ -16,7 +16,7 @@ Back to wheels.
 
 In the end, I saved money over buying a new wheel &ndash; even when considering the price of two new chain whips (a one-time tool purchase). I traded sleep for mechanical knowledge. In both regards, I feel that I came out ahead on the very first wheel; with a lifetime of cycling (and therefore broken wheels to replace) ahead of me, I'm certain that this was a wise move.
 
-<div style="text-align:center;"><img src="http://threebrothers.org/brendan/images/ancient-wheel.jpg" alt="Credit: http://www.flickr.com/photos/chromatic_aberration/3828921733/" title="Credit: http://www.flickr.com/photos/chromatic_aberration/3828921733/" /><br/><em>Ancient wheel.</em></div>
+<div style="text-align:center;"><img src="//threebrothers.org/brendan/images/ancient-wheel.jpg" alt="Credit: http://www.flickr.com/photos/chromatic_aberration/3828921733/" title="Credit: http://www.flickr.com/photos/chromatic_aberration/3828921733/" /><br/><em>Ancient wheel.</em></div>
 
 But this brings us to an interesting juxtaposition. To your average, non-mechanic cyclist, I undertook an extraordinary amount of effort and personal risk to create something that is machine manufactured *en masse* and readily available at any bike shop. I reinvented the wheel, in both the literal and the clich&eacute;d sense.
 
@@ -30,7 +30,7 @@ NIH is real. It's dangerous to think that you always need to create a new and no
 
 The database example is rather salient: I worked for a company that started its metadata system with a vanilla MySQL backend, but later added spellchecking and autocorrection via a native [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance) function. Rails provides another great example. It can be used like a black box, and you can build a functioning website without ever taking a look inside. But you'll always be at a disadvantage to the person who can quickly trace a behavior into some Rails internal and extend its functionality.
 
-<div style="text-align:center;"><img src="http://threebrothers.org/brendan/images/forces-wheel.jpg" alt="Credit: http://cozybeehive.blogspot.com/2010/03/jobst-brandt-part-v.html" title="Credit: http://cozybeehive.blogspot.com/2010/03/jobst-brandt-part-v.html" /><br/><em>Understanding the forces in play on a bicycle wheel.<br/>From </em><a href="http://www.amazon.com/Bicycle-Wheel-3rd-Jobst-Brandt/dp/0960723668">The Bicycle Wheel</a><em> by Jobst Brandt.</em></div>
+<div style="text-align:center;"><img src="//threebrothers.org/brendan/images/forces-wheel.jpg" alt="Credit: http://cozybeehive.blogspot.com/2010/03/jobst-brandt-part-v.html" title="Credit: http://cozybeehive.blogspot.com/2010/03/jobst-brandt-part-v.html" /><br/><em>Understanding the forces in play on a bicycle wheel.<br/>From </em><a href="http://www.amazon.com/Bicycle-Wheel-3rd-Jobst-Brandt/dp/0960723668">The Bicycle Wheel</a><em> by Jobst Brandt.</em></div>
 
 Don't put your black boxes on a pedestal as if they can never be opened &ndash; this behavior is just [another form of knowledge debt](http://nathanmarz.com/blog/your-company-has-a-knowledge-debt-problem.html). Don't forgo learning about and tinkering with a system just because it's established. In this regard, reinventing is good practice &ndash; in fact, I'd conjecture that is where most innovation originates.
 

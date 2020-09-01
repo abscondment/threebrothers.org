@@ -1,5 +1,5 @@
 Browsing around this morning, I stumbled across the following picture:
-<blockquote><img id="image33" alt="Ah, Limits!" src="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/01/290288531_bbca706d43_o.jpg" /></blockquote>
+<blockquote><img id="image33" alt="Ah, Limits!" src="//threebrothers.org/brendan/blog/wp-content/uploads/2007/01/290288531_bbca706d43_o.jpg" /></blockquote>
 Math bored me throughout elementary school.  Frankly, it bored me until I started calculus, and I think I've pinpointed <em>why</em>.
 
 Assuming for a minute that the story behind this rather humorous picture is true, with what (purely speculative) methods or misconceptions does the student approach problem?

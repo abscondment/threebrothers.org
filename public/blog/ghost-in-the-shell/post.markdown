@@ -2,4 +2,4 @@ A while ago, <a href="http://threebrothers.org/jordan/">Jordan</a> introduced me
 
 Much to my surprise, I stumbled across the following video during my daily news consumption.  Exoskeletons like the one demonstrated in this video play a key role in a few <acronym title="Ghost in the Shell">GitS</acronym> episodes, and I'm amazed to see how advanced the real life progress on these frightening machines has become.
 
-<div style="text-align:center;"><embed src="http://www.liveleak.com/player.swf" width="450" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="autostart=false&token=109_1195663753" scale="showall" name="index"></embed></div>
+<div style="text-align:center;"><embed src="//www.liveleak.com/player.swf" width="450" height="370" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="autostart=false&token=109_1195663753" scale="showall" name="index"></embed></div>

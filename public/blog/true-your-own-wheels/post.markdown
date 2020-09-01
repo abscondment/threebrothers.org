@@ -12,7 +12,7 @@ There's really only one thing needed: a <a href="http://www.parktool.com/product
 
 In order to be able to true a wheel, it really helps to have the following mental image in your mind:
 
-<img src="http://threebrothers.org/brendan/blog/files/wheel-top.png" alt="Conceptual wheel, top view."/>
+<img src="//threebrothers.org/brendan/blog/files/wheel-top.png" alt="Conceptual wheel, top view."/>
 
 Ok, ok &mdash; my graphics skills are lacking.  Here's the idea: if you stand over your wheel and look down, you'll see an image similar to this.  Your tire creates the thick line, and alternating spokes stick out from it on either side.
 
@@ -30,7 +30,7 @@ But what should I do: loosen spoke 3, or tighten the other spokes?  This questio
 
 "What!", says you &mdash; I know, it's hard to believe.  But look at the following picture and you'll understand why turning the spoke to the right <em>loosens</em> it instead of tightening it:
 
-<img src="http://threebrothers.org/brendan/blog/files/spoke-screw.png" alt="Spoke-screw diagram, from the side" />
+<img src="//threebrothers.org/brendan/blog/files/spoke-screw.png" alt="Spoke-screw diagram, from the side" />
 
 Imagine that my crude graphic is a view from the side of your wheel, focusing on the place where one spoke attaches to the rim.  The long and short of it is that the screw goes through the rim and into the top of the spoke.  This screw is a normal screw, which is what makes things... er... screwy!
 

@@ -25,7 +25,7 @@ end
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/653039.js?file=no_session.rb"></script>
+<script src="//gist.github.com/653039.js?file=no_session.rb"></script>
 
 I then created a subclass of our session store (SqlSessionStore, in our case) that has a class-level toggle ("disabled") which it uses to choose the backing session class when it is called.
 
@@ -64,7 +64,7 @@ end
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/653053.js?file=optional_session_store.rb"></script>
+<script src="//gist.github.com/653053.js?file=optional_session_store.rb"></script>
 
 I now use a before filter to enable or disable sessions even for code paths that attempt to access them.
 
@@ -83,4 +83,4 @@ end
     </code>
   </pre>
 </noscript>
-<script src="http://gist.github.com/653049.js?file=toggle_session.rb"></script>
+<script src="//gist.github.com/653049.js?file=toggle_session.rb"></script>

@@ -1,6 +1,6 @@
 Is it a dream?  Is it a lie?  I think I'll let you decide.
 
-<a href="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/02/linux-cs.png"><img id="image43" src="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/02/linux-cs.thumbnail.png" alt="linux-cs.png" /></a>
+<a href="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/02/linux-cs.png"><img id="image43" src="//threebrothers.org/brendan/blog/wp-content/uploads/2007/02/linux-cs.thumbnail.png" alt="linux-cs.png" /></a>
 
 That's right--I'm currently installing Counter-Strike <em>under Linux</em>.  Granted, my desktop computer is probably too slow for this to be really playable... but when I upgrade it in a year or two, I'll be set.
 

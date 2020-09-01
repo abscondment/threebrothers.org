@@ -6,7 +6,7 @@ A few minutes later, the cry went up again: <em>"Did you eat peanut butter on it
 
 Peanut butter.  Cheese.  The appearance of these two foods triggered a distinct memory: the tastiest hypothesis ever posited!  My friend Seth Moore once revealed to me some of his family's food-related wisdom.
 
-<img id="image35" alt="Say Cheese!" src="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/01/cheese.png" />    <img id="image34" alt="Mmmmm... Peanut Butter" src="http://threebrothers.org/brendan/blog/wp-content/uploads/2007/01/pb.png" />
+<img id="image35" alt="Say Cheese!" src="//threebrothers.org/brendan/blog/wp-content/uploads/2007/01/cheese.png" />    <img id="image34" alt="Mmmmm... Peanut Butter" src="//threebrothers.org/brendan/blog/wp-content/uploads/2007/01/pb.png" />
 
 The hypothesis goes something like this:
 <blockquote><strong><em>Any food can be made to taste better--or at least "as good" as before--by adding either cheese or peanut butter.</em></strong></blockquote>
